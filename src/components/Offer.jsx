@@ -9,10 +9,15 @@ const Offer = () => {
           Visit our shop to see amazing creations from our designers.
         </p>
       </div>
-      <div className="w-[70%] grid grid-cols-3 gap-6">
-              <div className="flex   flex-col">
-                  <div className="w-[100%] h-[500px] bg-[#EFEFEF]"></div>
-                  
+      <div className="w-[70%] mx-auto grid grid-cols-3 gap-6">
+        <div className="flex   flex-col">
+          <div className="w-[100%] h-[500px] bg-[#EFEFEF]"></div>
+        </div>
+        <div className="flex   flex-col">
+          <div className="w-[100%] h-[500px] bg-[#EFEFEF]"></div>
+        </div>
+        <div className="flex   flex-col">
+          <div className="w-[100%] h-[500px] bg-[#EFEFEF]"></div>
         </div>
       </div>
     </div>
