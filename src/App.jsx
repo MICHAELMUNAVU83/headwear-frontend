@@ -6,6 +6,7 @@ import Hero from "./components/Hero";
 import NavBar from "./components/NavBar";
 import PostHero from "./components/PostHero";
 import Collections from "./components/Collections";
+import Offer from "./components/Offer";
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
       <Hero />
       <PostHero />
       <Collections />
+      <Offer />
     </>
   );
 }
