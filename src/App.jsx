@@ -5,6 +5,7 @@ import "./App.css";
 import Hero from "./components/Hero";
 import NavBar from "./components/NavBar";
 import PostHero from "./components/PostHero";
+import Collections from "./components/Collections";
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
       <NavBar />
       <Hero />
       <PostHero />
+      <Collections />
     </>
   );
 }
